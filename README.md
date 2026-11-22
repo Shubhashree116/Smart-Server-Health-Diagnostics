@@ -62,8 +62,7 @@ pip install -r requirements.txt
 Make a copy of `.env.example` and name the copy `.env`.
 
 Open `.env` and replace `your_api_key_here` with your own API key.
-The example configuration uses the Groq OpenAI-compatible chat completions API.
-You can change the URL and model if you use another compatible provider.
+The example configuration uses Google's Gemini API through its OpenAI-compatible chat completions endpoint. The configured model is gemini-2.5-flash. You can change the URL and model if you use another compatible provider.
 
 Do not commit or upload your real `.env` file or API key. The `.gitignore`
 file excludes `.env` from Git.
